@@ -55,4 +55,4 @@ chain = (
     | final_responder
 )
 
-print(chain.invoke({"input": "Razor"}))
+print(chain.invoke({"input": "Amber"}))

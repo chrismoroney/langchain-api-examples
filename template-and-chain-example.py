@@ -20,6 +20,6 @@ chat_prompt = ChatPromptTemplate.from_messages(
 )
 
 chain = chat_prompt | chat_model | CommaSeparatedListOutputParser()
-result = chain.invoke({"number": "10", "word": "orange"})
+result = chain.invoke({"number": "10", "word": "blasphemous"})
 
 print(result)
